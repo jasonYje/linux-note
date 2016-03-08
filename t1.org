@@ -1,0 +1,23 @@
+//ORG-MODE 
+* syntax
+** Star(*) should be at the beginning of the line
+** Space( ) should be after the star(*)
+** Synopsis level equals the number of star(*)
+* shortcut key
+** FOLD and UNFOLD
+ SHIFT+TAB switch the whole file state between fold,unfold next level,unfold all
+ TAB the same as last one,but just for the current line
+** MOVE between different synopsis item
+ C-c 
+* hyperlink
+https://github.com/jasonYje/linux-note   on the web
+file:/home/yje/linux-note/t2             file, absolute path
+* Picture 
+** show picture
+file:~/Pictures/1.png
+
+* NOTE
+
+more info ,please refer to http://www.cnblogs.com/holbrook/archive/2012/04/12/2444992.html
+
+

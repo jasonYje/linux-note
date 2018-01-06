@@ -53,3 +53,12 @@
 	easy_install -U pip
 	pip install --upgrade tensorflow-gpu 
 	
+## 4.4 参考tensorflow.org官网
+	vi /etc/hosts
+	
+	#TensorFlow start  from https://github.com/tensorflow/tensorflow/issues/3834 
+	64.233.188.121  www.tensorflow.org
+	#TensorFlow end
+	
+	sudo /etc/init.d/networking restart
+	

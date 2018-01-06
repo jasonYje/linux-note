@@ -35,10 +35,21 @@
 ## 3.4 privoxy
 	ref:http://www.privoxy.org/user-manual/quickstart.html	
 	apt-get install privoxy
-## 3.5 install cuda
+# 4. install cuda
+## 4.0 安装cuda
 	ref:http://blog.csdn.net/masa_fish/article/details/51882183
 	ref-file:https://developer.nvidia.com/cuda-80-ga2-download-archive
 	ref-doc:http://developer2.download.nvidia.com/compute/cuda/8.0/secure/Prod2/docs/sidebar/CUDA_Installation_Guide_Linux.pdf?XsFZciNUIATezVL5kgMeNVlsoVaWExToCf02sGQ_6lMXR_QNvLufftgUy-_QD2K3yJL5bAIEJ8z0eAjoc_3yDBvQN_i3JpxqV_EFxAFI3DvevSUTy-xIoC342LbHgZULTZU8jD2FZLxzQMC8WkQYT0hoQYJdZeA_DWv1UuUOu70JVltiNuJviIUe6Q
 
-
-:
+## 4.2 安装 cuDNN
+	ref:https://developer.nvidia.com/rdp/cudnn-download
+	ref-doc:http://developer2.download.nvidia.com/compute/machine-learning/cudnn/secure/v6/prod/Doc/cudnn_install-2.txt?JE2p8dLJwV6NgESpgPGTt5-hyrwqWUIu4F3rlPd5OSf9e3DO2nzZlVaKNPpIT_HGPB_mohmWnLQVTwH0wiWBsIEP9RM3NlNFfyUXo7ffVAYSNfQpQMrR0HVz7blCtd4o9PP3pzf9TwoLvRqucIB5T3R0t4BlBHIuhQXaG9oBbmtOmzAY
+	
+## 4.3 安装 pycharm + virtualenv + 
+	ref-file:https://www.jetbrains.com/pycharm/
+	sudo apt-get install python-pip python-dev python-virtualenv
+	virtualenv --system-site-packages
+	source ~/tensorflow/bin/activate
+	easy_install -U pip
+	pip install --upgrade tensorflow-gpu 
+	
